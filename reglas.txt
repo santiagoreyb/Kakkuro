@@ -1,0 +1,15 @@
+Siendo n y m cualquier numero Recuerda: Las celdas editables tienen formato: "0" y que para cada celda no editable con formato "-1\n" o "n\-1" o "n\m" o "-1\-1":
+
+a. Si es "-1\n", la suma de todas las celdas editables hacia abajo hasta llegar a la siguiente celda no editable sea igual a "n".
+
+b. Si es "n\-1", la suma de todas las celdas editables hacia la derecha hasta llegar a la siguiente celda no editable sea igual a "n".
+
+c. Si es "n\m", la suma de todas las celdas editables hacia abajo hasta llegar a la siguiente celda no editable sea igual a "n" y que la suma de todas las celdas editables hacia la derecha hasta llegar a la siguiente celda no editable sea igual a "m".
+
+d. Si es "-1\-1" no debe hacer ninguna comprobacion para la suma hacia la derecha ni para la suma hacia abajo
+
+un ejemplo:
+-1\-1,16\-1,-1\-1,13\-1,
+-1\9,0,4\6,0,
+-1\12,0,0,0,
+-1\-1,-1\6,0,0
